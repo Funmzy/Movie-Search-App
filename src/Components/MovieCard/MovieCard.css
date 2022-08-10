@@ -32,6 +32,7 @@
 .button-container{
     display: flex;
     justify-content: center;
+    min-height: 38px;
 }
 
 .details-button{

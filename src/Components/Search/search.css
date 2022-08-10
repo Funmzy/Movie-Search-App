@@ -49,12 +49,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 
 .void-container{
-  /* background-color: red; */
   width: 100vw;
   height: 50vh;
   display: flex;
