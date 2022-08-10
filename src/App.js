@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Search from './Components/Search/search';
+import pix from './images_canon_camera_1746.png'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className='topic'>
+      <img src={pix} alt='img'/>
+      <h1 className="title">Movie Search</h1>
+      </div>
+      <Search/>
     </div>
   );
 }

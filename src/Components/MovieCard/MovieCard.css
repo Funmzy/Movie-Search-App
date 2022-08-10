@@ -1,0 +1,43 @@
+.card {
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+    margin-bottom: 2rem;
+    background-color: white;
+    width: 25rem;
+    margin-right: 1.5rem;
+}
+
+.card:hover .details-button {
+    display: block;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    min-height: 4.5rem;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-figure{
+    width: 100%;
+    height: 20rem;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.details-button{
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    display: none;
+   
+}
